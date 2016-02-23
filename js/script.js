@@ -18,7 +18,23 @@ function windowResize() {
 	if(width > 768 && menu.is(':hidden')){
 		menu.removeAttr('style');
 	}
-}
+};
+
+		
+$('#wel').delay(2000).hide(2000);
+		$(this).animate({
+		// top: '200px',
+		// opacity: '1',
+		});
+
+// $("#wel").click(function(){
+//         var div = $("#wel");  
+//         div.animate({left: '100px'}, "slow");
+//         div.animate({fontSize: '3em'}, "slow");
+//     });
+// 		top:'60px', left: '20px',
+// }, 750);
+
 
 $(window).resize(windowResize);
 			
